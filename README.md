@@ -1,6 +1,6 @@
 # Coal Index Visualizer
 
-A web-based Shiny application to visualize and analyze coal index prices from trade deal data. The app processes uploaded CSV files, filters valid deals, computes Volume Weighted Average Prices (VWAP), and provides interactive charts and downloadable outputs. Built for commodity analysts, energy traders, and data professionals working with coal market data.
+A web-based R Shiny application to visualize and analyze coal index prices from trade deal data. The app processes uploaded CSV files, filters valid deals, computes Volume Weighted Average Prices (VWAP), and provides interactive charts and downloadable outputs. Built for commodity analysts, energy traders, and data professionals working with coal market data.
 
 ## Features
 
