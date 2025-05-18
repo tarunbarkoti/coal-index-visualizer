@@ -1,0 +1,100 @@
+body {
+  background-color: #f7f9fc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.title-panel {
+  margin-left: 320px;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  z-index: 1001;
+}
+
+.fixed-sidebar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 300px;
+  height: calc(100% - 70px);
+  background-color: #ffffff;
+  border-right: 1px solid #dee2e6;
+  padding: 20px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.main-content {
+  margin-left: 320px;
+  padding: 20px;
+}
+
+h4, .help-block {
+  margin-bottom: 15px;
+}
+
+#file, #download {
+  width: 100%;
+}
+
+.shiny-download-link {
+  background-color: blue;
+  color: white !important;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.shiny-download-link:hover {
+  background-color: green;
+}
+
+
+table.dataTable.beautiful-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100% !important;
+  background-color: #fff;
+  table-layout: fixed;
+}
+
+table.dataTable.beautiful-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #2a3645 !important;
+  color: white;
+  z-index: 100;
+  text-align: center;
+  white-space: nowrap;
+  padding: 10px;
+  box-shadow: 0 2px 2px -1px rgba(0,0,0,0.4);
+}
+
+table.dataTable.beautiful-table tbody td {
+  vertical-align: middle;
+  text-align: center;
+  white-space: nowrap;
+  padding: 8px;
+}
+
+
+table.dataTable.beautiful-table th,
+table.dataTable.beautiful-table td {
+  min-width: 120px;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.dataTables_wrapper .dataTables_scroll {
+  overflow: auto;
+}
